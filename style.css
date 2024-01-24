@@ -1,9 +1,12 @@
 body{
+    
+.principal{
     background-color : #cccccc;
+    padding: 20px;
 }
-
-h1{
-    text-align: center;
+}
+.titulo-principal{
+    padding-left: 30px;
 }
 
 p{
@@ -15,4 +18,27 @@ em strong{
 #mision{
     font-size: 20px;
 }
+#banner{
+    width: 100%;
+}
 
+.tituloCentrado{
+    text-align: center;
+}
+.diferencial{
+    background: #ffffff;
+    padding: 30px;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imgDiferencial{
+    width: 50%;
+}
+
+.item{
+    font-style: italic;
+}
