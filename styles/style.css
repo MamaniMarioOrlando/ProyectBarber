@@ -1,10 +1,9 @@
-body{
-    
+ 
 .principal{
     background-color : #cccccc;
     padding: 20px;
 }
-}
+
 .titulo-principal{
     padding-left: 30px;
 }
@@ -24,12 +23,15 @@ em strong{
 
 .tituloCentrado{
     text-align: center;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  font-weight: bold;
 }
 .diferencial{
     background: #ffffff;
     padding: 30px;
 }
-ul{
+.diferencialUl{
     display: inline-block;
     vertical-align: top;
     width: 20%;

@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barberia</title>
+    <link rel="stylesheet" href="/styles/products.css">
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/reset.css">
 </head>
 <body>
     <header>
-        <h1 class="titulo-principal">Barberia Alura</h1>
+        <div class="caja">
+            <h1><img src="/imagenes/productBarber/logo.png" alt="Logo de la barberia"></h1>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/products.html">Productos</a></li>
+                    <li><a href="/contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <img id="banner" src="/imagenes/banner/banner.jpg" alt="Imagen de barberia">
    <div class="principal">
@@ -27,7 +38,7 @@
    </div>
     <div class="diferencial">
         <h3 class="tituloCentrado">Diferenciales</h3>
-        <ul>
+        <ul class="diferencialUl">
             <li class="item">Atencion personalizada a los clientes.</li>
             <li class="item">Espacio diferencial.</li>
             <li class="item">Localizacion.</li>
@@ -35,6 +46,9 @@
         </ul>
         <img class="imgDiferencial" src="/imagenes/diferenciales/diferenciales.jpg">
     </div>
-
+    <footer>
+        <img src="/imagenes/productBarber/logo-blanco.png" alt="">
+        <p class="copyright">&copy Copyright Barberia Alura 2024</p>
+    </footer>
 </body>
 </html>
