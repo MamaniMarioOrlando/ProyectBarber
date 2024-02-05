@@ -197,6 +197,10 @@ td, th{
     opacity: 0.3;
 }
 /*contact style*/
+main h1{
+    font-size: 2rem;
+    padding-top: 2rem;
+}
 .caja, .principal, 
 .main-contact, .mapa-contenido, 
 .productos, .contenido-diferencial{
@@ -206,21 +210,61 @@ td, th{
 .mapa p, .titulo-principal,.productos li, footer{
     text-align: center;
 }
+
+.turno{
+    height: 140px;
+}
 /*Responsive*/
 @media screen and (max-width:480px) {
+    /*Index*/
     h1{
         text-align: center;
     }
     nav{
         position: static;
+        padding: 0 0 15px 0;
+    }
+    nav li{
+        display: block;
+        text-align: center;
+        padding: 2px 0;
     }
 
     .caja, .principal,
     .mapa, .mapa-contenido,
-    .contenido-diferencial, .video {
+    .contenido-diferencial, .video,.main-contact {
         width: auto;
     }
     .lista-diferencial, .img-diferencial{
         width: 100%;
+    }
+    /*Product*/
+    .productos{
+        height: 1300.5px;
+        padding: 40px;
+    }
+    .productos li{
+        display: inline-table;
+        margin: 10px 0;
+    }
+    /*Contact*/
+    form{
+        margin: 40px 0px;
+        text-align: center;
+    }
+    .input-padron{
+        display: inline-block;
+    }
+    table{
+        margin: 40px auto;
+    }
+    td, th{
+        border: 2px solid #000;
+    }
+    .turno{
+        height: 153px;
+    }
+    .enviar{
+        width: 47%;
     }
 }
