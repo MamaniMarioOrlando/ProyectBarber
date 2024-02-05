@@ -7,7 +7,6 @@ header{
 }
 .caja{
     position: relative;   
-    margin: 0 auto;
 }
 
 nav{
@@ -28,12 +27,11 @@ nav a{
 }
 .productos{
     height: 410.65px;
-    margin: 0 auto;
+
     padding: 50px;
 }
 .productos li{
     display: inline-block;
-    text-align: center;
     width: 30%;
     vertical-align: top;
     padding: 30px 20px;
@@ -74,7 +72,6 @@ nav a:hover{
     border-color: #088c19;
 }
 footer{
-    text-align: center;
     background: url(/imagenes/productBarber/bg.jpg);
     padding: 40px;
 }
@@ -113,8 +110,7 @@ form label, form legend{
     cursor: pointer;
 }
 .enviar:hover{
-    background: darkorange;
-    
+    background: darkorange;  
 }
 table{
     margin: 40px 40px;
@@ -135,11 +131,9 @@ td, th{
 .principal{
     background: #FFFFFF;
     padding: 3em 0;
-    
-    margin: 0 auto;
+
 }
 .titulo-principal{
-    text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
@@ -164,12 +158,9 @@ td, th{
 }
 .mapa p{
     margin: 0 0 2em;
-    text-align: center;
 }
-.mapa-contenido{
-    margin: 0 auto;
-}
-.caja, .principal, .mapa-contenido{
+
+.caja, .main-contact, .principal, .mapa-contenido{
     width: 940px;
 }
 .diferencial{
@@ -182,7 +173,6 @@ td, th{
 }
 .contenido-diferencial{
     width: 640px;
-    margin: 0 auto;
 }
 .lista-diferencial{
     width: 40%;
@@ -205,6 +195,16 @@ td, th{
 }
 .img-diferencial:hover{
     opacity: 0.3;
+}
+/*contact style*/
+.caja, .principal, 
+.main-contact, .mapa-contenido, 
+.productos, .contenido-diferencial{
+    margin: 0 auto;
+}
+
+.mapa p, .titulo-principal,.productos li, footer{
+    text-align: center;
 }
 /*Responsive*/
 @media screen and (max-width:480px) {
