@@ -239,8 +239,8 @@ main h1{
     }
     /*Product*/
     .productos{
-        height: 86.5em;;
-        padding: 40px;
+        height: 86.5em;
+        padding: 3em;
     }
     .productos li{
         display: inline-table;
@@ -266,4 +266,43 @@ main h1{
     .enviar{
         width: 47%;
     }
+}
+@media screen  and (max-width: 786px) {
+    
+    ul {
+        list-style: none;
+        width: 27em;
+      }
+    .principal {
+        width: 94%;
+    } 
+    .mapa-contenido{
+        width: 94%;
+    }
+    .caja{
+        width: 100%;
+    }
+    .productos{
+        width: 91.9%;
+        margin: 0px;
+        padding: 3em 2em;
+    }
+    li img{
+        width: 100%;
+    }
+    .productos li {
+        width: 29%;
+        padding: 1.875em 0.25em;
+        margin: 0px 1.9%;
+    }
+    .productos h1 {
+        font-size: 1.25em;
+    }
+    .productos li:hover h1 {
+        font-size: 1.5em;
+    }
+    .main-contact{
+        width: 90%;
+    }
+
 }
