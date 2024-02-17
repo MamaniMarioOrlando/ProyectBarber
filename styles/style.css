@@ -57,7 +57,7 @@ nav a{
     margin-top: 0.625em;
 }
 nav a:hover{
-    color: #c78c19;;
+    color: #c78c19;
     text-decoration: underline;
 }
 
@@ -138,7 +138,7 @@ td, th{
     clear: left;
 }
 .principal p{
-    margin: 0 0 1em;
+    margin: 0 0 2em;
 }
 .principal strong{
     font-weight: bold;
@@ -152,7 +152,7 @@ td, th{
     padding: 0 20px 20px 0; 
 }
 .mapa{
-    padding: 3em 0;
+    padding: 0 0 3em 0;
     background: linear-gradient(#FFFFFF, #888888);
 }
 .mapa p{
@@ -214,60 +214,10 @@ main h1{
     height: 140px;
 }
 /*Responsive*/
-@media screen and (max-width:480px) {
-    /*Index*/
-    h1{
-        text-align: center;
-    }
-    nav{
-        position: static;
-        padding: 0 0 15px 0;
-    }
-    nav li{
-        display: block;
-        text-align: center;
-        padding: 2px 0;
-    }
 
-    .caja, .principal,
-    .mapa, .mapa-contenido,
-    .contenido-diferencial, .video,.main-contact {
-        width: auto;
-    }
-    .lista-diferencial, .img-diferencial{
-        width: 100%;
-    }
-    /*Product*/
-    .productos{
-        height: 86.5em;
-        padding: 3em;
-    }
-    .productos li{
-        display: inline-table;
-        margin: 10px 0;
-    }
-    /*Contact*/
-    form{
-        margin: 40px 0px;
-        text-align: center;
-    }
-    .input-padron{
-        display: inline-block;
-    }
-    table{
-        margin: 40px auto;
-    }
-    td, th{
-        border: 2px solid #000;
-    }
-    .turno{
-        height: 153px;
-    }
-    .enviar{
-        width: 47%;
-    }
-}
-@media screen  and (max-width: 786px) {
+
+
+@media screen  and (max-width: 884px) {
     
     ul {
         list-style: none;
@@ -303,6 +253,102 @@ main h1{
     }
     .main-contact{
         width: 90%;
+    }
+
+}
+@media screen and (max-width:412px) {
+    /*Index*/
+    h1{
+        text-align: center;
+    }
+    h1 img {
+        height: 11em;
+      }
+    ul{
+        width: 100%;
+    }
+    nav{
+        position: static;
+        padding: 0 0 15px 0;
+    }
+    nav li{
+        display: block;
+        text-align: center;
+        padding: 2px 0;
+        margin: 0 0 0 9px;
+    }
+    .principal,
+    .mapa{
+        padding: 1.5em 1em;
+    }
+    .principal p {
+        margin: 0 0 1em;
+      }
+    .diferencial{
+        padding: 0 1.7em;
+    }
+    .lista-diferencial {
+        padding-bottom: 2em;
+      }
+    .caja, .principal,
+    .mapa, .mapa-contenido,
+    .contenido-diferencial, .video,.main-contact {
+        width: auto;
+    }
+    .lista-diferencial, .img-diferencial{
+        width: 100%;
+    }
+    /*Product*/
+    main h1 {
+        margin-top: 0;
+      }
+    h1 img{
+        height: 13em;
+      }
+
+    .productos{
+        height: 81.5em;
+        width: 69%;
+        margin: 0px;
+        padding: 2em 4em;
+    }
+    
+    .productos li{
+        display: block;
+        margin: 2em 0;
+        width: 100%;
+        padding: 1.875em 1.25em;
+    }
+    /*Contact*/
+    .tutulo-contact{
+        font-size: 2rem;
+        padding-top: 1em;
+      }
+
+      .main-contact {
+        padding: 0px 1em;
+      }
+    form{
+        margin: 40px 0px;
+        text-align: center;
+    }
+    .input-padron{
+        display: inline-block;
+    }
+    #mensaje{
+        height: 5em;
+    }
+    table{
+        margin: 40px auto;
+    }
+    td, th{
+        border: 2px solid #000;
+    }
+    .turno{
+        height: 153px;
+    }
+    .enviar{
+        width: 47%;
     }
 
 }
