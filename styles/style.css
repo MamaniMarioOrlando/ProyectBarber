@@ -256,7 +256,7 @@ main h1{
     }
 
 }
-@media screen and (max-width:412px) {
+@media screen and (max-width:320px) {
     /*Index*/
     h1{
         text-align: center;
@@ -307,10 +307,10 @@ main h1{
       }
 
     .productos{
-        height: 81.5em;
+        height: 73.5em;
         width: 69%;
         margin: 0px;
-        padding: 2em 4em;
+        padding: 2em 3em;
     }
     
     .productos li{
@@ -348,7 +348,7 @@ main h1{
         height: 153px;
     }
     .enviar{
-        width: 47%;
+        width: 64%;
     }
 
 }
