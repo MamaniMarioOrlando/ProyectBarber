@@ -71,7 +71,7 @@ nav a:hover{
     border-color: #088c19;
 }
 footer{
-    background: url("/ProyectBarber/imagenes/productBarber/bg.jpg");
+    background: black;
     padding: 40px;
 }
 .copyright{
